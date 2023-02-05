@@ -1,26 +1,23 @@
 package org.example;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        ArrayList<Integer> list1 = new ArrayList<>();
+        ArrayList<Integer> list2 = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        ArrayList<Integer> li = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            int nv = sc.nextInt();
-            li.add(nv);
+        for (int i = 0; i < 28; i++) {
+            int a = sc.nextInt();
+            list1.add(a);
         }
-        int v = sc.nextInt();
-        int z = 0;
-        for (int i = 0; i < li.size(); i++) {
-            if (li.get(i) == v ) {
-                z += 1;
-            }
+        for (int i = 1; i <= 30; i ++) {
+            list2.add(i);
         }
-        System.out.println(z);
+        list2.removeAll(list1);
+        for (int i = 0; i < 2; i++) {
+            System.out.println(list2.get(i));
+        }
     }
 }

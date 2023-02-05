@@ -3,11 +3,13 @@ package org.example;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class q1000 {
+public class q25083 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        System.out.println(a+b);
+        System.out.println("         ,r'\"7");
+        System.out.println("r`-_   ,'  ,/");
+        System.out.println(" \\. \". L_r'");
+        System.out.println("   `~\\/");
+        System.out.println("      |");
+        System.out.println("      |");
     }
 }
