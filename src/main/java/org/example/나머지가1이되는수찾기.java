@@ -1,6 +1,6 @@
 package org.example;
 
-public class Main {
+public class 나머지가1이되는수찾기 {
     public static void main(String[] args) {
         class Solution {
             public int solution(int n) {
