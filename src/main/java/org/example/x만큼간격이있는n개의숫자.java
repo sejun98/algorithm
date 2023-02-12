@@ -1,10 +1,6 @@
 package org.example;
 
-import java.util.ArrayList;
-import java.util.Objects;
-import java.util.Scanner;
-
-public class Main {
+public class x만큼간격이있는n개의숫자 {
     public static void main(String[] args) {
         int n = 100;
         int x = -12;
