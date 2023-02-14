@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.ArrayList;
 
-public class Main {
+public class 하샤드수 {
     public static void main(String[] args) {
         int x = 15;
         int c = x;
